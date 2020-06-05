@@ -1,5 +1,5 @@
 # AdaCoSeg
-This is an Pytorch demo of the paper "[SCORES: Shape Composition with Recursive Substructure Priors](https://kevinkaixu.net/projects/scores.html)". This is a neural network which learns structure fusion for 3D shape composition
+This is an Pytorch demo of the paper "[AdaCoSeg: Adaptive Shape Co-Segmentation with Group Consistency Loss](https://arxiv.org/abs/1903.10297)". This is a deep neural network architecture for adaptive co-segmentation of a set of 3D shapes represented as point clouds.
 
 ## Usage
 **Dependancy**
@@ -21,7 +21,7 @@ python demo_cosegmentation.py
 ```
 2. Run cosegmentation on the training dataset, the results would be saved in /refineTraining. You can compare the segmentation consistency before and after the cosegmentation.
 ```
-python demo_refineTrainingData 
+python demo_refineTrainingData.py 
 ```
 
 ## Citation
