@@ -16,11 +16,11 @@ python trainOffline.py
 ```
 Or, you can use our pretrained model `/chair/PartSpace_Training.pkl` to run two interesting demo.
 
-1. Run cosegmentation on the testing dataset, the results would be saved in /coseg.
+1. Run cosegmentation on the testing dataset, the results would be saved in `/coseg`.
 ```
 python demo_cosegmentation.py
 ```
-2. Run cosegmentation on the training dataset, the results would be saved in /refineTraining. You can compare the segmentation consistency before and after the cosegmentation.
+2. Run cosegmentation on the training dataset, the results would be saved in `/refineTraining`. You can compare the segmentation consistency before and after the cosegmentation.
 ```
 python demo_refineTrainingData.py 
 ```
