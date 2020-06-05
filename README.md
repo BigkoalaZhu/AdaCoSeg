@@ -6,7 +6,7 @@ This is an Pytorch demo of the paper "[SCORES: Shape Composition with Recursive 
 
 This implementation should be run with Python 3.x and Pytorch 0.4.0.
 
-We provide a demo dataset for training and testing, you can download it from this "[link]()". Put the unziped files in the folder `/chair`.
+We provide a demo dataset for training and testing, you can download it from this "[link](https://www.dropbox.com/s/tnyxvwlqul5feqo/chair.zip?dl=0)". Put the unziped files in the folder `/chair`.
 
 **Demo**
 You can train your own offline network through:
@@ -14,10 +14,14 @@ You can train your own offline network through:
 python trainOffline.py
 ```
 Or, you can use our pretrained model `/chair/PartSpace_Training.pkl` to run two interesting demo.
-```
-python demo_cosegmentation.py #Run cosegmentation on the testing dataset, the results would be saved in /coseg.
 
-python demo_refineTrainingData #Run cosegmentation on the training dataset, the results would be saved in /refineTraining. You can compare the segmentation consistency before and after the cosegmentation :)
+1. Run cosegmentation on the testing dataset, the results would be saved in /coseg.
+```
+python demo_cosegmentation.py
+```
+2. Run cosegmentation on the training dataset, the results would be saved in /refineTraining. You can compare the segmentation consistency before and after the cosegmentation.
+```
+python demo_refineTrainingData 
 ```
 
 ## Citation
