@@ -9,6 +9,7 @@ This implementation should be run with Python 3.x and Pytorch 0.4.0.
 We provide a demo dataset for training and testing, you can download it from this "[link](https://www.dropbox.com/s/tnyxvwlqul5feqo/chair.zip?dl=0)". Put the unziped files in the folder `/chair`.
 
 **Demo**
+
 You can train your own offline network through:
 ```
 python trainOffline.py
